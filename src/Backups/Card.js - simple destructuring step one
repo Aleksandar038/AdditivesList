@@ -1,0 +1,25 @@
+import React from 'react';
+
+const Card = (props) => {
+    const {Code, Image1, Name, Type, Status, MoreInfo1} = props;
+    return (
+        <div className='bg-light-gray dib br3 pa3 ma2 grow bw2 shadow-5 tc'> 
+            <div id="myCardTitle">
+                <h2>{Code}</h2>
+            </div>
+            <div id="myCardPicture">
+                <img src={Image1} width='100px' height='100px' alt="Additive" />
+            </div>
+            <div id="data">
+                <p>{Name}</p>
+                <p>{Type}</p>
+                <p>{Status}</p>
+            </div>
+            <div id="myMoreInfoButton">
+                <a href={MoreInfo1}>Find out more</a>
+            </div>
+        </div>
+    )
+}
+
+export default Card;

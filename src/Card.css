@@ -1,0 +1,46 @@
+.Safe {
+    background-color: rgba(0, 255, 55, 0.5)!important;
+}
+
+.Suspicious {
+    background-color: rgba(238, 255, 0, 0.5)!important;
+}
+
+.Avoid {
+    background-color: rgba(255, 0, 0, 0.788)!important;
+}
+
+.Forbidden {
+    background-color: rgba(0, 255, 55, 0)portant;
+    color: white;
+}
+
+.safetyLevel {
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.customButton {
+    background-color: blue!important;
+    color: white;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.customButton:hover {
+    background-color: red!important;
+}
+
+.customButton:active {
+    background-color: black!important;
+}
+
+.customButton:visited {
+    background-color: #ccc;
+}

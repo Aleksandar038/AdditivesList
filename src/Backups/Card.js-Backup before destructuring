@@ -1,0 +1,24 @@
+import React from 'react';
+
+const Card = (props) => {
+    return (
+        <div className='bg-light-gray dib br3 pa3 ma2 grow bw2 shadow-5 tc'> 
+            <div id="myCardTitle">
+                <h2>{props.Code}</h2>
+            </div>
+            <div id="myCardPicture">
+                <img src={props.Image1} width='100px' height='100px' alt="Additive" />
+            </div>
+            <div id="data">
+                <p>{props.Name}</p>
+                <p>{props.Type}</p>
+                <p>{props.Status}</p>
+            </div>
+            <div id="myMoreInfoButton">
+                <a href={props.MoreInfo1}>Find out more</a>
+            </div>
+        </div>
+    )
+}
+
+export default Card;
