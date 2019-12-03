@@ -7,8 +7,9 @@ import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 import { Elist } from './Elist.js';
 
-ReactDOM.render( <
-    CardList / > , document.getElementById('root'));
+ReactDOM.render( 
+        <CardList Elist={Elist}/>
+, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
