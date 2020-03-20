@@ -32,20 +32,36 @@
 }
 
 .Safe {
-    background-color: rgba(0, 255, 55, 0.5)!important;
+    background-color: rgba(0, 255, 55, 0.75)!important;
+}
+
+.Safe:hover {
+    background-color: rgba(0, 255, 55, 1)!important;
 }
 
 .Suspicious {
-    background-color: rgba(233, 142, 6, 0.5)!important;
+    background-color: rgba(233, 142, 6, 0.75)!important;
+}
+
+.Suspicious:hover {
+    background-color: rgba(233, 142, 6, 1)!important;
 }
 
 .Avoid {
-    background-color: rgba(255, 0, 0, 0.856)!important;
+    background-color: rgba(255, 0, 0, 0.75)!important;
+}
+
+.Avoid:hover {
+    background-color: rgba(255, 0, 0, 1)!important;
 }
 
 .Forbidden {
-    background-color: rgba(0, 0, 0, 0.856)!important;
+    background-color: rgba(0, 0, 0, 0.75)!important;
     color: white;
+}
+
+.Forbidden:hover {
+    background-color: rgba(0, 0, 0, 1)!important;
 }
 
 .safetyLevel {

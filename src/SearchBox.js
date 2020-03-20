@@ -6,7 +6,7 @@ const SearchBox = ({searchChange}) => {
             <input 
                 type='search' 
                 placeholder='Search additives by their E-number' 
-                className='pa3 ba bg-light-gray' 
+                className='pa3 bg-dark-gray bg-animate hover-bg-black near-white w-50' 
                 onChange={searchChange} />
         </div>
     );
