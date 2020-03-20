@@ -4,6 +4,7 @@ import { Elist } from './Elist.js';
 import SearchBox from './SearchBox.js';
 import './App.css';
 import 'tachyons';
+import Scroll from './Scroll.js';
 
 class App extends Component {
     constructor () {
@@ -41,7 +42,9 @@ class App extends Component {
                   </p>
                 </article>
                 <SearchBox searchChange={this.onSearchChange}/>
-                <CardList Elist={filteredList}/>
+                <Scroll>
+                  <CardList Elist={filteredList}/>
+                </Scroll>
             </div>
         );
     }
