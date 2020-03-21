@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AdditiveChecker/static/css/main.ee8f572d.chunk.css",
+    "main.js": "/AdditiveChecker/static/js/main.70642693.chunk.js",
+    "main.js.map": "/AdditiveChecker/static/js/main.70642693.chunk.js.map",
+    "runtime-main.js": "/AdditiveChecker/static/js/runtime-main.b4e449c8.js",
+    "runtime-main.js.map": "/AdditiveChecker/static/js/runtime-main.b4e449c8.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/AdditiveChecker/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.799ccffc.chunk.js": "/AdditiveChecker/static/js/2.799ccffc.chunk.js",
+    "static/js/2.799ccffc.chunk.js.map": "/AdditiveChecker/static/js/2.799ccffc.chunk.js.map",
+    "index.html": "/AdditiveChecker/index.html",
+    "precache-manifest.96e20001005d40c3079340dbd39404ec.js": "/AdditiveChecker/precache-manifest.96e20001005d40c3079340dbd39404ec.js",
+    "service-worker.js": "/AdditiveChecker/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/AdditiveChecker/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.ee8f572d.chunk.css.map": "/AdditiveChecker/static/css/main.ee8f572d.chunk.css.map",
+    "static/js/2.799ccffc.chunk.js.LICENSE.txt": "/AdditiveChecker/static/js/2.799ccffc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4e449c8.js",
+    "static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.799ccffc.chunk.js",
+    "static/css/main.ee8f572d.chunk.css",
+    "static/js/main.70642693.chunk.js"
+  ]
+}
